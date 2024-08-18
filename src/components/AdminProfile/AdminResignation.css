@@ -1,0 +1,160 @@
+/* Base Styles */
+.admin-form-container {
+  width: 55%;
+  margin-left: 10%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.849);
+  border-radius: 8px;
+  background-color: rgb(7, 10, 92);
+}
+
+.admin-heading {
+  color: #fff;
+  text-align: center;
+  margin-left: 0%;
+}
+
+.admin-employee-details {
+  color:white;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  text-align: center;
+  color: #000; /* Set text color to black */
+}
+
+.admin-employee-details p {
+  margin: 5px 0;
+  color: #000; /* Ensure text is black */
+}
+
+.admin-form-group {
+  margin-bottom: 20px;
+}
+
+textarea#reasonForLeaving {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+}
+
+.admin-form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.admin-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.admin-button-submit {
+  background-color: #4369e7;
+  flex: 1;
+}
+
+.admin-button-back {
+  background-color: transparent;
+  color: #e6e9ec;
+  font-size: 25px;
+  flex: 1;
+}
+
+.admin-button-discuss {
+  background-color: yellowgreen;
+  flex: 1;
+}
+
+.admin-button:hover {
+  opacity: 0.9;
+}
+
+.admin-status-check-icon {
+  position: absolute;
+  margin-top: 15px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #dde1e6;
+  margin-right: 35%;
+}
+
+.admin-status-check-icon:hover {
+  color: #0056b3;
+}
+
+/* Responsive Styles */
+
+/* For tablets */
+@media screen and (max-width: 768px) {
+  .admin-form-container {
+    width: 90%;
+    margin-right: 0;
+  }
+
+  .admin-form-buttons {
+    flex-direction: column;
+  }
+
+  .admin-button {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .admin-status-check-icon {
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+  }
+}
+
+/* For mobile phones */
+@media screen and (max-width: 480px) {
+  .admin-form-container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .admin-heading {
+    font-size: 18px;
+  }
+
+  .admin-form-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .admin-button {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .admin-status-check-icon {
+    top: 10px;
+    right: 20px;
+    font-size: 18px;
+  }
+.reason-title{
+  color: white;
+  margin-right: 30%;
+}
+  .admin-employee-details {
+    font-size: 14px;
+  }
+
+  .admin-form-group {
+    margin-left: 0;
+    color: white;
+  }
+}
